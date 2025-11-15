@@ -1,6 +1,4 @@
-// src/data/products.js
-
-// استيراد الصور من مجلد الأصول (assets)
+// dataa randomly it is not correctd    tm
 import ComboBoxer from '../assets/combo_boxer.jpg';
 import KingOfHammer from '../assets/king_of_hammer.jpg';
 import AirHockeyTable from '../assets/air_hockey_table.jpg';
@@ -10,12 +8,9 @@ import ShootingGallery from '../assets/shooting_gallery.jpg';
 import LightReaction from '../assets/light_reaction.jpg';
 import CatchStick from '../assets/catch_stick.jpg';
 
-// مصفوفة المنتجات المتاحة للبيع
-export const products = [
-  
-    /*
-  { <-
-
+      /* ex
+saved for later use:
+{
     id: 9, // رقم تعريف فريد (يجب أن يكون مختلفاً عن الأرقام السابقة)
     name: "اسم المنتج الجديد",
     image: اسم_الصورة_المستوردة, // يجب أن تكون الصورة مستوردة في أعلى الملف
@@ -24,14 +19,13 @@ export const products = [
     power: "0.3 Amp", // استهلاك الطاقة
     category: "Skill", // تصنيف المنتج (مثل Strength, Sports, Skill)
     isNew: true, // هل هو منتج جديد؟ (true أو false)
-  },<-
-
-    */
+  },     */
+export const products = [
    {
     id: 1,
     name: "Boxing Combo Machine",
     image: ComboBoxer,
-    description: "Test your strength and speed with our popular boxing and kick combo machine. Features power score display.",
+    description: "Test your strength and speed with our popular boxing and kick combo machine. Features power score display. we have blach machine also",
     price: 3500, 
     power: "0.25 Amp",
     category: "Strength",
