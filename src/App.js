@@ -1,5 +1,4 @@
-//  tm
-
+//  tm 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import Router components
 import './App.css'; 
@@ -49,6 +48,4 @@ function App() {
   );
 }
 
-export default App;
-
-
+export default App; 

@@ -41,22 +41,25 @@ const SellMachines = () => {
                 <p className="text-3xl font-extrabold text-red-600 mb-4">
                   $ {product.price.toLocaleString()}      </p>
                 <p className="text-gray-600 text-sm mb-4 line-clamp-3">  {product.description}                 </p>
-<div className="flex justify-between text-xs text-gray-500 mb-4">
-  <span>Category: <span className="font-semibold">{product.category}</span></span>
-  <span>Power: <span className="font-semibold">{product.power}</span></span>
-</div>
-{/*button buy w alert */}
-<button 
-  className="w-full py-3 bg-yellow-400 text-gray-900 font-bold rounded-lg hover:bg-yellow-500 transition duration-300 shadow-md uppercase"
-  onClick={() => alert(`Buying ${product.name} for $${product.price.toLocaleString()}`)}   >
-  Buy Now
-</button>
-</div>
-</div>
-))}
-</div>
-</div>
-</div>
-); 
+
+              <div className="flex justify-between text-xs text-gray-500 mb-4">
+              <span>Category:
+                 <span className="font-semibold">{product.category}</span> 
+              </span>
+             <span>Power: <span className="font-semibold">{product.power}</span></span>
+            </div>
+            {/*button buy w alert */}
+            <button 
+              className="w-full py-3 bg-yellow-400 text-gray-900 font-bold rounded-lg hover:bg-yellow-500 transition duration-300 shadow-md uppercase"
+               onClick={() => alert(`Buying ${product.name} for $${product.price.toLocaleString()}`)}   >
+                                               Buy Now
+            </button>
+         </div>
+        </div>
+  ))}
+        </div>
+       </div>
+    </div>
+ ); 
 };
 export default SellMachines; 

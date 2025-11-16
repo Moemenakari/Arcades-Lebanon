@@ -1,4 +1,4 @@
-//vision w mission w messages l team w rating import mn mui
+//vision w mission w messages l ppl w rating import mn mui
 import React from 'react';
 import TeamImage from '../assets/hero_image1000.jpg'; 
 import { Rating } from '@mui/material'; 
@@ -105,8 +105,6 @@ const AboutUs = () => {
                     precision={0.5} 
                     size="medium"
                   />
-                  
-
                   
                   {/* review */}
                   <p className="text-gray-700 italic mt-3 mb-4">

@@ -143,6 +143,58 @@ const Home = () => {
         </div>
       </section>
 
+            {/*  Image Gallery -color? */}
+      <section className="py-16 bg-yellow-400">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+            Get Your Eyes on the Fun!
+          </h2>
+          
+          {/* hammer  2x    (Grid) */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="col-span-2 row-span-2 overflow-hidden rounded-xl shadow-lg transform hover:scale-[1.01] transition duration-300">
+              <img 
+                src={KingOfHammer} 
+                alt="Arcade Atmosphere" 
+                className="w-full h-full object-cover"
+              />
+            {/* grid album 1x box  */}
+            </div>
+            <div className="overflow-hidden rounded-xl shadow-lg transform hover:scale-[1.01] transition duration-300">
+              <img 
+                src={ComboBoxer} 
+                alt="Arcade Machine" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            {/* grid album 1x hockey  */}
+            <div className="overflow-hidden rounded-xl shadow-lg transform hover:scale-[1.01] transition duration-300">
+              <img 
+                src={AirHockeyTable} 
+                alt="Air Hockey" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            {/* grid album 1x basket  */}
+            <div className="overflow-hidden rounded-xl shadow-lg transform hover:scale-[1.01] transition duration-300">
+              <img 
+                src={BasketballHoop} 
+                alt="Basketball Game" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            {/* grid album 1x hammer2  */}
+            <div className="overflow-hidden rounded-xl shadow-lg transform hover:scale-[1.01] transition duration-300">
+              <img 
+                src={KingOfHammer} 
+                alt="Arcade Game" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 4. Call to Action Banner - Final Push */}
       <section className="py-16 bg-red-600 text-white">
         <div className="container mx-auto px-4 text-center">
