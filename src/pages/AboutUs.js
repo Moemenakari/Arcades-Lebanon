@@ -1,7 +1,7 @@
 //vision w mission w messages l team w rating import mn mui
 import React from 'react';
 import TeamImage from '../assets/hero_image1000.jpg'; 
-import Rating from '@mui/material/Rating'; 
+import { Rating } from '@mui/material'; 
 //mtl review customers
 const testimonials = [
   {

@@ -2,7 +2,6 @@
 
 import React from 'react';
 // Import all necessary images from the assets folder
-// استيراد جميع الصور الضرورية من مجلد الأصول (assets)
 import HeroImage from '../assets/hero_image.jpg'; 
 import ComboBoxer from '../assets/combo_boxer.jpg';
 import KingOfHammer from '../assets/king_of_hammer.jpg';
@@ -10,7 +9,6 @@ import AirHockeyTable from '../assets/air_hockey_table.jpg';
 import BasketballHoop from '../assets/basketball_hoop.jpg';
 
 // Array of featured machines for the "Arcade Showcase" section
-// مصفوفة من الأجهزة المميزة لقسم "عرض الأركيد"
 const featuredMachines = [
   { name: "Boxing Combo Machine", image: ComboBoxer, description: "Test your strength and speed with our popular boxing and kick combo machine. Perfect for competitive fun!" },
   { name: "King of the Hammer", image: KingOfHammer, description: "Prove you're the strongest! A classic carnival game that brings out the competitor in everyone." },
@@ -19,40 +17,33 @@ const featuredMachines = [
 ];
 
 // The Home page component
-// مكون الصفحة الرئيسية
 const Home = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       
       {/* 1. Hero Section - The Best Arcade Zone in Lebanon */}
-      {/* 1. قسم البطل (Hero Section) - أفضل منطقة أركيد في لبنان */}
       <div className="relative h-[70vh] md:h-[85vh] overflow-hidden">
         
         {/* Background Image with Parallax Effect (simulated with fixed background) */}
-        {/* صورة الخلفية مع تأثير المنظر (Parallax) */}
         <div 
           className="absolute inset-0 bg-fixed bg-cover bg-center" 
           style={{ backgroundImage: `url(${HeroImage})` }}
         ></div>
 
         {/* Dark Overlay and Content */}
-        {/* طبقة تظليل داكنة والمحتوى */}
         <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white p-4">
           
           {/* Main Slogan - Emphasizing "Best in Lebanon" */}
-          {/* الشعار الرئيسي - التأكيد على "الأفضل في لبنان" */}
           <h1 className="text-4xl md:text-7xl font-black text-center tracking-tight drop-shadow-lg">
             <span className="text-yellow-400">#1</span> Arcade Zone in Lebanon
           </h1>
           
           {/* Secondary Message */}
-          {/* رسالة ثانوية */}
           <p className="text-xl md:text-3xl font-light mt-4 text-center max-w-3xl">
             Transforming every event into an <span className="font-bold text-red-500">unforgettable gaming experience</span>.
           </p>
 
           {/* Call to Action Buttons */}
-          {/* أزرار الدعوة لاتخاذ إجراء */}
           <div className="flex flex-col sm:flex-row gap-4 mt-10">
             <a 
               href="/events" 
@@ -71,7 +62,6 @@ const Home = () => {
       </div>
 
       {/* 2. Why Choose Us - Feature Section */}
-      {/* 2. لماذا تختارنا - قسم الميزات */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 border-b-4 border-yellow-400 inline-block pb-2">
@@ -81,7 +71,6 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
             {/* Feature 1: Variety */}
-            {/* الميزة 1: التنوع */}
             <div className="p-6 bg-red-50 text-red-800 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
               <i className="fas fa-gamepad text-4xl mb-4"></i> {/* Placeholder for an icon */}
               <h3 className="text-2xl font-bold mb-3">10+ Different Games</h3>
@@ -91,7 +80,6 @@ const Home = () => {
             </div>
 
             {/* Feature 2: Events Focus */}
-            {/* الميزة 2: التركيز على الفعاليات */}
             <div className="p-6 bg-yellow-50 text-yellow-800 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
               <i className="fas fa-calendar-alt text-4xl mb-4"></i> {/* Placeholder for an icon */}
               <h3 className="text-2xl font-bold mb-3">Festival Specialists</h3>
@@ -101,7 +89,6 @@ const Home = () => {
             </div>
 
             {/* Feature 3: Location */}
-            {/* الميزة 3: الموقع */}
             <div className="p-6 bg-blue-50 text-blue-800 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
               <i className="fas fa-map-marker-alt text-4xl mb-4"></i> {/* Placeholder for an icon */}
               <h3 className="text-2xl font-bold mb-3">Based in Tripoli</h3>
@@ -114,7 +101,6 @@ const Home = () => {
       </section>
 
       {/* 3. Arcade Showcase - Featured Machines */}
-      {/* 3. عرض الأركيد - الأجهزة المميزة */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
@@ -123,7 +109,6 @@ const Home = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Map through the featuredMachines array to display cards */}
-            {/* المرور عبر مصفوفة الأجهزة المميزة لعرض البطاقات */}
             {featuredMachines.map((machine, index) => (
               <div 
                 key={index} 
@@ -159,7 +144,6 @@ const Home = () => {
       </section>
 
       {/* 4. Call to Action Banner - Final Push */}
-      {/* 4. لافتة الدعوة لاتخاذ إجراء - الدفعة النهائية */}
       <section className="py-16 bg-red-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-5xl font-black mb-4">
