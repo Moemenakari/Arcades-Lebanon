@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../assets/logonextlevelgame.jpg';
 const Navbar = () => {
   const navLinks = [
-    { title: 'Home', url: '/' },
+
     { title: 'Events', url: '/events' }, 
     { title: 'Sell Machines', url: '/sell' },
     { title: 'Rent Machines', url: '/rent' },
@@ -22,7 +22,7 @@ const Navbar = () => {
           </span>
         </a>
         {/* Desktop Navigation Links - Hidden on small screens (mobile) */}
-        <div className="hidden md:flex space-x-6 space-x-reverse">
+        <div className="hidden md:flex space-x-8 ">
           {navLinks.map((link) => (
             <a 
               key={link.title} 

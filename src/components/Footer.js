@@ -12,8 +12,8 @@ const Footer = () => {
           
           {/* Section 1: Company Info */}
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-xl font-bold text-yellow-400 mb-3">Arcade Lebanon</h3>
-            <p className="text-sm text-red-700">
+            <h3 className="text-xl font-bold text-yellow-400 mb-3"> nextlevelgame</h3>
+            <p className="text-sm text-gray-400 ">
               Your premier destination for arcade machines and events in Lebanon.
                We turn your occasions into unforgettable gaming zones.
             </p>
@@ -79,6 +79,7 @@ const Footer = () => {
                 },
               }}
             />
+
             {/* عنوان location*/}
             <p className="text-sm text-gray-400 ">Tripoli-Lebanon</p>
             {/* بريد إلكتروني */}
