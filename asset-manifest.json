@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Arcades-Lebanon/static/css/main.b79e6c72.css",
+    "main.js": "/Arcades-Lebanon/static/js/main.56b30e5e.js",
+    "static/js/453.ab70729a.chunk.js": "/Arcades-Lebanon/static/js/453.ab70729a.chunk.js",
+    "static/media/light_reaction.jpg": "/Arcades-Lebanon/static/media/light_reaction.4e1d0efd1d7e5b336148.jpg",
+    "static/media/hero_image1000.jpg": "/Arcades-Lebanon/static/media/hero_image1000.e3b37edd0da0a7ea5133.jpg",
+    "static/media/combo_boxer.jpg": "/Arcades-Lebanon/static/media/combo_boxer.2b1075dd4d7f904d4e66.jpg",
+    "static/media/hero_image.jpg": "/Arcades-Lebanon/static/media/hero_image.75d85dd8b33e9915b5fc.jpg",
+    "static/media/shooting_gallery.jpg": "/Arcades-Lebanon/static/media/shooting_gallery.caaf348a5b0f4806aee2.jpg",
+    "static/media/claw_machine.jpg": "/Arcades-Lebanon/static/media/claw_machine.f74789b57db9c9dc9be8.jpg",
+    "static/media/basketball_hoop.jpg": "/Arcades-Lebanon/static/media/basketball_hoop.4804cd73abada3811486.jpg",
+    "static/media/logonextlevelgame.jpg": "/Arcades-Lebanon/static/media/logonextlevelgame.90312f52279b576850b3.jpg",
+    "static/media/catch_stick.jpg": "/Arcades-Lebanon/static/media/catch_stick.9d2e981770edd0df0adb.jpg",
+    "static/media/king_of_hammer.jpg": "/Arcades-Lebanon/static/media/king_of_hammer.89fc346510aeab540917.jpg",
+    "index.html": "/Arcades-Lebanon/index.html",
+    "main.b79e6c72.css.map": "/Arcades-Lebanon/static/css/main.b79e6c72.css.map",
+    "main.56b30e5e.js.map": "/Arcades-Lebanon/static/js/main.56b30e5e.js.map",
+    "453.ab70729a.chunk.js.map": "/Arcades-Lebanon/static/js/453.ab70729a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79e6c72.css",
+    "static/js/main.56b30e5e.js"
+  ]
+}
