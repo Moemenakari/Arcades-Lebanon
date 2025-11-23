@@ -1,6 +1,5 @@
-// src/pages/Home.js
-
 import React from 'react';
+import { Link } from "react-router-dom"; 
 // Import all necessary images from the assets folder
 import HeroImage from '../assets/hero_image.jpg'; 
 import ComboBoxer from '../assets/combo_boxer.jpg';
@@ -21,10 +20,10 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       
-      {/* 1. Hero Section - The Best Arcade Zone in Lebanon */}
+      {/* 1. Hero Section -*/}
       <div className="relative h-[70vh] md:h-[85vh] overflow-hidden">
         
-        {/* Background Image with Parallax Effect (simulated with fixed background) */}
+        {/* Background Image  Effect */}
         <div 
           className="absolute inset-0 bg-fixed bg-cover bg-center" 
           style={{ backgroundImage: `url(${HeroImage})` }}
@@ -32,8 +31,7 @@ const Home = () => {
 
         {/* Dark Overlay and Content */}
         <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white p-4">
-          
-          {/* Main Slogan - Emphasizing "Best in Lebanon" */}
+            {/* Main Headline */}
           <h1 className="text-4xl md:text-7xl font-black text-center tracking-tight drop-shadow-lg">
             <span className="text-yellow-400">#1</span> Arcade Zone in Lebanon
           </h1>
@@ -45,21 +43,17 @@ const Home = () => {
 
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-10">
-            <a 
-              href="/events" 
+            <Link 
+              to="/events" 
               className="px-8 py-3 bg-red-600 text-white text-lg font-bold rounded-full hover:bg-red-700 transition duration-300 shadow-2xl uppercase transform hover:scale-105"
             >
               Book Your Festival Now
-            </a>
-            <a 
-              href="/sell" 
-              className="px-8 py-3 bg-yellow-400 text-gray-900 text-lg font-bold rounded-full hover:bg-yellow-500 transition duration-300 shadow-2xl uppercase transform hover:scale-105"
-            >
-              Buy Your Own Machine
-            </a>
+            </Link>
+            
           </div>
         </div>
       </div>
+      
       {/* 3. Arcade Showcase - Featured Machines */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
@@ -82,9 +76,6 @@ const Home = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-red-600 mb-2">{machine.name}</h3>
                   <p className="text-gray-600 text-sm">{machine.description}</p>
-                  <div className="mt-4 flex justify-between space-x-2">
-                    
-                  </div>
                 </div>
               </div>
             ))}
@@ -101,12 +92,7 @@ const Home = () => {
           <p className="text-xl mb-8 font-light">
             Contact us today to discuss your event or machine purchase.
           </p>
-          <a 
-            href="/contact" 
-            className="px-10 py-4 bg-yellow-400 text-gray-900 text-xl font-bold rounded-full hover:bg-yellow-500 transition duration-300 shadow-2xl uppercase transform hover:scale-105"
-          >
-            Get a Free Quote
-          </a>
+          
         </div>
       </section>
 
