@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arcades-Lebanon/static/css/main.b79e6c72.css",
-    "main.js": "/Arcades-Lebanon/static/js/main.56b30e5e.js",
+    "main.css": "/Arcades-Lebanon/static/css/main.0ec07c66.css",
+    "main.js": "/Arcades-Lebanon/static/js/main.ce57003d.js",
     "static/js/453.ab70729a.chunk.js": "/Arcades-Lebanon/static/js/453.ab70729a.chunk.js",
     "static/media/light_reaction.jpg": "/Arcades-Lebanon/static/media/light_reaction.4e1d0efd1d7e5b336148.jpg",
     "static/media/hero_image1000.jpg": "/Arcades-Lebanon/static/media/hero_image1000.e3b37edd0da0a7ea5133.jpg",
@@ -14,12 +14,12 @@
     "static/media/catch_stick.jpg": "/Arcades-Lebanon/static/media/catch_stick.9d2e981770edd0df0adb.jpg",
     "static/media/king_of_hammer.jpg": "/Arcades-Lebanon/static/media/king_of_hammer.89fc346510aeab540917.jpg",
     "index.html": "/Arcades-Lebanon/index.html",
-    "main.b79e6c72.css.map": "/Arcades-Lebanon/static/css/main.b79e6c72.css.map",
-    "main.56b30e5e.js.map": "/Arcades-Lebanon/static/js/main.56b30e5e.js.map",
+    "main.0ec07c66.css.map": "/Arcades-Lebanon/static/css/main.0ec07c66.css.map",
+    "main.ce57003d.js.map": "/Arcades-Lebanon/static/js/main.ce57003d.js.map",
     "453.ab70729a.chunk.js.map": "/Arcades-Lebanon/static/js/453.ab70729a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b79e6c72.css",
-    "static/js/main.56b30e5e.js"
+    "static/css/main.0ec07c66.css",
+    "static/js/main.ce57003d.js"
   ]
 }
