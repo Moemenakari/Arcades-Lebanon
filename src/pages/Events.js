@@ -48,7 +48,7 @@ const Events = () => {
         
         {/*         title */}
         <h1 className="text-4xl md:text-5xl font-extrabold text-center text-gray-900 mb-4">
-          Book Your Arcade Event 🎉
+          Book Your Arcade Event 
         </h1>
         <p className="text-xl text-center text-gray-600 mb-12">
           Let us transform your festival, corporate event, or party into the ultimate arcade zone!

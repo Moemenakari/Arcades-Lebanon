@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/logonextlevelgame.jpg'; 
 
 const Navbar = () => {
-  // State for managing the mobile menu visibility
+
+  // State for managing the mobile menu visibbility
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [

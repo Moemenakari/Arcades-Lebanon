@@ -1,16 +1,16 @@
-// src/pages/AboutUs.js
 
 import React from 'react';
 import TeamImage from '../assets/hero_image1000.jpg'; 
 import { Rating } from '@mui/material'; 
 
-// Customer testimonials data
+{/* 
+// Customer  data
 const testimonials = [
   {
     id: 1,
     name: "Doctor Ahmad Trad  :) ",
     city: "Daher El Ain - LIU North Campus",
-    rating: 5, // Corrected rating to be a number between 1-5
+    rating: 5, 
     review: "Ha nj7ak lmede ;) ",
   },
   {
@@ -34,7 +34,7 @@ const testimonials = [
     rating: 5,
     review: "The best arcade experience in Lebanon. Their machines are always clean and well-maintained. True professionals.",
   },
-];
+];            */ }
 
 const AboutUs = () => {
   return (
@@ -84,18 +84,19 @@ const AboutUs = () => {
           </div>
         </div>
         
-        {/* Testimonials Section */}
+        {/* Testimonials Section 
         <section className="py-12 bg-gray-100 rounded-xl shadow-inner">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10">
               What Our Customers Say:
             </h2>
-            
+            { 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className="bg-white p-6 rounded-lg shadow-lg text-left border-t-4 border-red-600">
                   
-                  {/* Star rating from MUI */}
+
+                  {/* Star rating from MUI 
                    <Rating 
                     name={`rating-${testimonial.id}`} 
                     value={testimonial.rating} 
@@ -104,13 +105,13 @@ const AboutUs = () => {
                     size="medium"
                   />
                   
-                  {/* Review Text */}
+                  {/* Review Text 
                   <p className="text-gray-700 italic mt-3 mb-4">
                     "{testimonial.review}"
                   </p>
                   
-                  {/* Customer Profile Info */}
-                  {/* The <img /> tag has been removed from here */}
+                  {/* Customer Profile Info 
+                  {/* The <img /> tag has been removed from here 
                   <div className="flex items-center mt-4">
                     <div>
                       <p className="font-bold text-gray-900">{testimonial.name}</p>
@@ -118,11 +119,15 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-              ))}
             </div>
+          )} 
           </div>
-        </section>
-      </div>
+        </section> }
+
+
+        */ }
+
+      </div>  
     </div>
   );
 };

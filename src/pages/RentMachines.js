@@ -51,7 +51,7 @@ const RentMachines = () => {
         
         {/* title  */}
         <h1 className="text-4xl md:text-5xl font-extrabold text-center text-gray-900 mb-4">
-          Rent Arcade Machines 🕹️
+          Rent Arcade Machines 
         </h1>
         <p className="text-xl text-center text-gray-600 mb-12">
           Fill out the form below to request a rental quote for your event.

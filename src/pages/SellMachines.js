@@ -11,7 +11,7 @@ const SellMachines = () => {
     <div className="min-h-screen bg-gray-50 py-16">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-extrabold text-center text-gray-900 mb-4">
-            Buy Arcade Machines 🕹️
+            Buy Arcade Machines 
         </h1>
         <p className="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto"> 
           Browse our selection of high-quality arcade machines available for purchase.
